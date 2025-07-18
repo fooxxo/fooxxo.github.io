@@ -1,0 +1,75 @@
+
+@font-face{
+src: url(fonts/NyankoFont-R953W.ttf);
+font-family: catfont;
+}
+
+@font-face{
+src: url(fonts/Occlupanidfont2-Regular.ttf);
+font-family: panfont;
+}
+
+h1,h2{
+font-size: 60px ;
+text-align: center;
+background-color: rgba(255,255,255,.6);
+padding: 10px ;
+}
+
+.clickmenu{
+	font-family: panfont;
+	font-size: 30px;
+	background-color: white ;	
+}
+
+.mau{
+display: block;
+margin-left: auto;
+margin-right: auto;	
+padding: 10px;
+border:white 3px dashed;
+}
+
+.pictures{
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+border-color: pink;
+ border-width: 7px;
+ border-style: solid;
+ padding: 10px;
+ background-color: purple;
+
+}
+
+
+
+body{
+ color: #521d4e; 
+font-size: 40px ;
+font-family: catfont;
+line-height: 150%;
+}
+
+
+
+.highlighted {
+background-color: rgba(255,255,255,.6);
+}
+
+.oblique {
+font-family: panfont;
+font-style: oblique;
+background-color: rgba(255,255,255,.6);
+}
+
+
+body {
+  background-image: url(backgroundyayacat.gif);
+}
+
+
+
+
+
