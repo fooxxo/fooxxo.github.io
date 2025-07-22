@@ -9,6 +9,23 @@ src: url(fonts/Occlupanidfont2-Regular.ttf);
 font-family: panfont;
 }
 
+@font-face{
+src: url(fonts/Cattie-Regular.ttf);
+font-family: catfontreadable;
+}
+
+.readable{
+	font-family: catfontreadable ;
+	font-weight: lighter;
+}
+
+.readableLink{
+	font-family: catfontreadable ;
+	font-weight: lighter;
+	padding: 10px;
+	font-size: .9em;
+}
+
 audio{
 display: block;
 background-image: url(lightgalaxy.jpg) ;
@@ -20,7 +37,7 @@ margin-right: auto;
 
 h1,h2{
 background-color: rgba(255,255,255,.6);
-padding: 10px ;
+padding: 15px ;
 font-size: 60px ;
 text-align: center;
 border-radius: 20px; 
@@ -64,17 +81,37 @@ border-color: pink;
 	
 }
 
-a{
+a:link{
 	color: #fca2f6;
 	background-color: #4f284c;
 	padding: 10px;
 }
+
+a:visited{
+	color: #662861;
+	background-color: #ba49b2;
+	padding: 10px;
+}
+
+a:hover{
+	color: #fca2f6;
+	background-color: #cf1fc1;
+	padding: 10px;
+}
+
 
 body{
  color: #521d4e; 
 font-size: 40px ;
 font-family: catfont;
 line-height: 150%;
+}
+
+.credit{
+color: white;
+font-family: arial;
+font-size: 20px;
+margin-left: 20px;
 }
 
 .span{
@@ -100,17 +137,17 @@ margin-right:30px ;
   padding: 0px;
 }
 
-#main {
+.main {
   background-image: url(backgroundyayacat.gif);
 }
 
-#firstsect{
-border-top: white 10px solid;
+.firstsect{
+border-top: white 10px ridge;
   background-image: url(galaxy.jpg);
 }
 
-#firstsecnoline{
-  background-image: url(galaxy.jpg);
+.firstsecnoline{
+  background-image: url(backgroundyayacat.gif);
 }
 
 
