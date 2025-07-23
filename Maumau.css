@@ -33,6 +33,7 @@ padding: 10px;
 border: #f299eb 7px ridge;
 margin-left:auto;
 margin-right: auto;
+cursor: url('clickcur.png'), auto;
 }
 
 h1,h2{
@@ -59,10 +60,10 @@ padding: 15px;
 border:white 10px dashed;
 }
 
+
 .pictures{
 display: block;
-margin-left: auto;
-margin-right: auto;
+margin: auto; 
 
 border-color: pink;
  border-width: 7px;
@@ -97,8 +98,12 @@ a:hover{
 	color: #fca2f6;
 	background-color: #cf1fc1;
 	padding: 10px;
+	cursor: url('clickcur.png'), auto;
 }
 
+html{
+	cursor: url('defaultcur.png'), auto;
+}
 
 body{
  color: #521d4e; 
