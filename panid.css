@@ -1,0 +1,138 @@
+*{
+padding: 0;
+margin: 0;
+}
+@font-face{
+src: url(fonts/Occlupanidfont2-Regular.ttf);
+font-family: panfont;
+}
+
+html{
+	cursor: url('pancur.png'), auto;
+}
+
+h1{
+background-color: #515a47;
+border: #755C1B 5px solid;
+padding: 15px ;
+color: #d7be82;
+font-weight: normal;
+font-family: panfont;
+font-size: 80px ;
+text-align: center;
+border-radius: 20px; 
+margin-left:30px ;
+margin-right:30px ;
+}
+
+/*
+p{
+	display: inline;
+} */
+
+.image{ 
+display:block;
+margin: 10px;
+margin-left: 60px;
+border-color: #D7BE82;
+ border-width: 7px;
+ border-style: solid;
+ padding: 10px;
+ background-color: #7a4419;
+  border-radius: 15px 15px;
+  float: left;
+}	
+
+.textbox{
+	font-family: panfont;
+	color: #d7be82;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-right:60px;
+	margin-left: 70px;
+	background-color: #755c1b;
+	border: #515A47 5px solid;
+}
+
+
+.menubar ul{
+	font-family: panfont, cursive, arial;
+	font-size:40px;
+	list-style: none;
+	text-align: center;
+}
+
+.menubar li{
+	display:inline;
+	padding:15px;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+.menubar a{
+text-decoration: none;
+}
+
+.menubar a:link{
+color: #400406;
+background-color: #D7BE82;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+
+}
+.menubar a:visited{
+color: #400406;
+background-color: #D7BE82;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+}
+.menubar a:hover{
+color: #400406;
+background-color: #D7BE82;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+}
+.menubar{
+	background-color: #515a47;
+	padding: 20px;
+	border-bottom: #D7BE82 10px double;
+}
+
+a:link{
+	color: #400406;
+	background-color: #D7BE82;	
+	padding: 0px;
+
+}
+a:visited{
+	color: #400406;
+	background-color: #D7BE82;
+	padding: 0px;
+}
+a:hover{
+	color: #400406;
+	background-color: #D7BE82;
+	padding: 0px;
+	cursor: url('pancur.png'), auto;
+}
+
+body{
+	background-image:url(panidbackground.jpg);
+}
+
+.boxtwo{
+	background-color:#630d10;
+	border-top: #7a4419 3px solid;
+	border-bottom: #7a4419 3px solid;
+}
+
+.credit{
+	font-family: arial;
+	font-size: 10px;
+	color: white;
+
+}
