@@ -14,6 +14,43 @@ src: url(fonts/Cattie-Regular.ttf);
 font-family: catfontreadable;
 }
 
+.menubar ul{
+	font-family: panfont, catfontreadable, arial;
+	font-size:25px;
+	list-style: none;
+	text-align: center;
+}
+
+.menubar li{
+	display:inline;
+	padding:15px;
+	vertical-align: middle;
+	
+}
+
+.menubar a{
+text-decoration: none;
+}
+
+.menubar a:link{
+color: white;
+background-color: #1c42a3;
+text-decoration: none;
+border-radius: 5px;
+}
+.menubar a:visited{
+color: white;
+background-color: #1c42a3;
+text-decoration: none;
+border-radius: 5px;
+}
+.menubar a:hover{
+color: white;
+background-color: #11224d;
+text-decoration: none;
+border-radius: 5px;
+}
+
 .readable{
 	font-family: catfontreadable ;
 	font-weight: lighter;
@@ -46,11 +83,6 @@ margin-left:30px ;
 margin-right:30px ;
 }
 
-.clickmenu{
-	font-family: panfont;
-	font-size: 30px;
-	background-color: white ;	
-}
 
 .mau{
 display: block;
@@ -83,14 +115,15 @@ border-color: pink;
 }
 
 a:link{
-	color: #fca2f6;
+	color: #fca2f6;	
 	background-color: #4f284c;
 	padding: 10px;
+
 }
 
 a:visited{
-	color: #662861;
-	background-color: #ba49b2;
+	color: #fca2f6;	
+	background-color: #4f284c;
 	padding: 10px;
 }
 
@@ -146,6 +179,11 @@ margin-right:30px ;
   background-image: url(backgroundyayacat.gif);
 }
 
+.menubar{
+	background-image: url(gradientmenu.gif) ;
+	border-bottom: white 10px solid;
+}
+
 .firstsect{
 border-top: white 10px ridge;
   background-image: url(galaxy.jpg);
@@ -154,8 +192,3 @@ border-top: white 10px ridge;
 .firstsecnoline{
   background-image: url(backgroundyayacat.gif);
 }
-
-
-
-
-
