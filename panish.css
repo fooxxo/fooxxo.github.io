@@ -1,0 +1,172 @@
+*{
+padding: 0;
+margin: 0;
+}
+@font-face{
+src: url(fonts/Occlupanidfont2-Regular.ttf);
+font-family: panfont;
+}
+
+.image{
+background-color: white;	
+padding: 20px;
+border: #233f4e 10px solid;
+margin:30px;
+}
+
+.icon{
+display: block;
+margin:auto;
+background-color: white;	
+padding: 20px;
+border: #233f4e 10px solid;
+
+}
+
+span{
+	font-family: arial;
+	color: #1e292f;
+	font-size: 20px;
+	line-height: 10px;
+}
+
+
+.textbox{
+	font-family: panfont;
+	color: #1e292f;
+	font-size: 50px;
+	margin: 30px;
+	background-color: #99d8c2;
+	padding: 20px;
+	border: #233f4e 5px solid;
+	line-height: 1.1em;
+	text-align: center;
+}
+
+.right{
+	font-family: panfont;
+	color: #1e292f;
+	font-size: 50px;
+	margin: 30px;
+	background-color: #99d8c2;
+	padding: 20px;
+	border: #233f4e 5px solid;
+	line-height: 1.1em;
+	text-align: center;
+	float: right;
+	width: 900px;
+}
+.left{
+	font-family: panfont;
+	color: #1e292f;
+	font-size: 50px;
+	margin: 30px;
+	background-color: #99d8c2;
+	padding: 20px;
+	border: #233f4e 5px solid;
+	line-height: 1.1em;
+	text-align: center;
+	float: left;
+	width: 900px;
+}
+
+.title{
+font-family: Impact;
+font-size: 90px;
+font-weight: lighter;
+color: #52c2d9;
+background-color: rgba(255,255,255,.8);
+padding: 20px;
+text-align: center;
+margin-right:600px;
+margin-left:600px;
+border-radius: 20px;
+border: white 15px double;
+}
+
+h1,h2{
+font-family: Impact;
+font-size: 70px;
+font-weight: lighter;
+color: #52c2d9;
+background-color: rgba(255,255,255,.8);
+padding: 10px;
+text-align: center;
+margin-right:70px;
+margin-left:70px;
+border-radius: 20px;
+border: white 15px double;
+}
+
+.menubar ul{
+	font-family: panfont, cursive, arial;
+	font-size:40px;
+	list-style: none;
+	text-align: center;
+}
+
+.menubar li{
+	display:inline;
+	padding:15px;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+.menubar a{
+text-decoration: none;
+}
+
+.menubar a:link{
+color: #52c2d9;
+background-color: white;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+
+}
+.menubar a:visited{
+color: #52c2d9;
+background-color: white;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+}
+.menubar a:hover{
+color: #42b2c8;
+background-color: white;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+}
+
+
+.button{
+display:block;
+margin: auto;
+color: #52c2d9;
+font-family: arial;
+font-size: 20px;
+background-color: white;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+border: gray 5px solid;
+width:fit-content;
+}
+
+.menubar{
+	background-image: url(menufish.png);
+	padding: 20px;
+	border-bottom: white 10px double;
+}
+
+.main{
+background-image: url(fishbackground.png);
+}
+
+.credit{
+	font-family: arial;
+	font-size: 10px;
+	color: white;
+	margin-left: 20px;
+}
