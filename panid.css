@@ -24,6 +24,11 @@ html{
 	float: right;
 	display: inline;
 	width: 600px;
+	line-height: 1.1em;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #d7be82;
+	text-decoration-thickness: 1px;
 }
 
 .left{
@@ -39,6 +44,11 @@ html{
 	float: left;
 	display: inline;
 	width: 600px;
+	line-height: 1.1em;
+		text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #d7be82;
+	text-decoration-thickness: 1px;
 }
 
 h1{
@@ -79,6 +89,22 @@ border-color: #D7BE82;
   border-radius: 15px 15px;
   float: left;
 }	
+
+.button{
+	Font-family: panfont;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	line-height: 100px;
+	font-size: 50px;
+	border-radius: 10px;
+	border-color: #7a4419;
+	border-width: 5px;
+	border-style: solid;
+	text-decoration: none;
+	list-style-type: none;
+}
 
 .textbox{
 	font-family: panfont;
@@ -128,7 +154,7 @@ border-radius: 5px;
 }
 .menubar a:hover{
 color: #400406;
-background-color: #D7BE82;
+background-color: #e0cd9d;
 text-decoration: none;
 padding: 10px;
 border-radius: 5px;
@@ -152,7 +178,7 @@ a:visited{
 }
 a:hover{
 	color: #400406;
-	background-color: #D7BE82;
+	background-color: #e0cd9d;
 	padding: 0px;
 	cursor: url('pancur.png'), auto;
 }
