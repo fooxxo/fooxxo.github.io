@@ -1,0 +1,56 @@
+ 
+ body{
+	 text-align:center;
+	 background-color: #f5c4f1;
+	
+ }
+ 
+ .pokemon-card img {
+	 width: 300px;
+	 height: 400px;
+	 margin-top: 10px;
+ }
+
+ #myBtn{
+background-color: rgb(253, 160, 218);
+color:#4d1948;
+border: #bd6bb6 4px solid;
+text-align:center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+margin: auto;
+ }
+
+
+ .menubar{
+	background-color:rgb(202, 159, 238);
+	padding:20px;
+	border-top: rgb(157, 84, 252) 5px double;
+	border-bottom: rgb(157, 84, 252) 5px double;
+ }
+
+ .menubar ul{
+	font-family: Courier;
+	font-size:35px;
+	list-style: none;
+	text-align: center;
+}
+
+.menubar li{
+	display:inline;
+	padding:15px;
+	vertical-align: middle;
+	
+}
+
+.menubar a{
+text-decoration: none;
+background-color:rgb(253, 160, 218);
+color:#4d1948;
+border: #bd6bb6 4px solid;
+}
+
+
+*{
+margin:0
+}
