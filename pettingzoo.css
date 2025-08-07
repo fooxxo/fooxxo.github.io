@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+
+body{
+    text-align: center;
+    background-image: url(background.jpg);
+}
+
+img{
+    border: rgb(255, 214, 233) 5px solid;
+    padding: 7px;
+    background-color: rgb(253, 88, 165);
+}
+
+h1{
+    border: rgb(255, 214, 233) 10px double;
+    padding: 7px;
+    background-color: rgba(253, 88, 165, 0.55);
+    border-radius: 5px;
+    font-family: Times,impact,arial;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+h2{
+    border: rgb(255, 214, 233) 10px double;
+    padding: 7px;
+    background-color: rgba(253, 88, 165, 0.55);
+    border-radius: 5px;
+    font-family: Times,impact,arial;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-right: 800px;
+}
